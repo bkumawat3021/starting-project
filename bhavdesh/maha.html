@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+p{
+display:inline;
+}
+</style>
+<body>
+    number1:<input type="text" value="" id="k"><br><br>
+    number2:<input type="text" value="" id="k1"><br><br>
+    <button onclick="sun(1)"></button>
+<button onclick="sun(2)"></button>
+<button onclick="sun(3)">multiply</button>
+<button onclick="sun(4)">divide</button>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+</body>
+<script>
+
+function sub(n){
+    var a=Document.getElementbyid("k");
+    var b=Document.getElementbyid("k1");
+    var c=Document.getElementbyid("a");
+     var d=Document.getElementbyid("b");
+    var e=Document.getElementbyid("c");
+    var f=Document.getElementbyid("d");
+
+if(n==1)
+    e.innerHTML=number(a.value)+number(b.value);
+}
+else if(n==2){
+    e.innerHTML=number(a.value)-number(b.value);
+}
+else if(n==3){
+    e.innerHTML=number(a.value)*number(b.value);
+}
+else if(n==4){
+    e.innerHTML=number(a.value)/number(b.value);
+}
+
+
+</script>
+
+
+</html>

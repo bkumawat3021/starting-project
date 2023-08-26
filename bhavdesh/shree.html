@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.mm{
+    display: flex;
+    gap: 10px;
+}
+
+</style>
+<body>
+    Number:<input type="text" value="" id="kk"><br>
+    Number:<input type="text" value="" id="vm"><br>
+    <button onclick="sum()">table</button>
+
+
+
+<div class="mm" >
+    <div class="box">
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    <h1 class="table"></h1>
+    
+</div>
+
+  <div class="vikash">
+<div class="box">
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    <h1 class="tab"></h1>
+    
+  </div>
+        
+</body>
+<script>
+function sum(){
+var a=document.getElementById("kk");
+var b=document.getElementsByClassName("table");
+var d=document.getElementById("vm");
+var c=document.getElementsByClassName("tab");
+for(var i=0;i<10;i++){
+    b[i].innerHTML=(i+1)*Number(a.value);
+    c[i].innerHTML=(i+1)*Number(d.value);
+
+
+}
+}
+
+</script>
+</html> 

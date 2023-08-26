@@ -1,0 +1,6 @@
+/*Codes By Mahdi Tasha*/
+
+/*Importing TailwindCSS*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

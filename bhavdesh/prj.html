@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background: rebeccapurple;
+        }
+
+        li {
+            float: left;
+
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background: orangered;
+        }
+
+        li.dropdown {
+            display: inline-block;
+
+        }
+
+        .droplist {
+            display: none;
+            position: absolute;
+            background: blue;
+            min-width: 150px;
+            box-shadow: 0 8px 16px 0px red;
+        }
+
+        .droplist a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .droplist a:hover {
+            background-color: gold;
+        }
+
+        .dropdown:hover.droplist {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>bhavdesh</h1>
+    <ul>
+        <li> <a href="#"> link1</a></li>
+        <li> <a href="#"> link2</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn"> dropdown</a>
+            <div class="droplist">
+                <a href="#">link1</a>
+                <a href="#">link2</a>
+                <a href="#">link3</a>
+                <a href="#">link4</a>
+            </div>
+
+        </li>
+        <li> <a href="#"> link4</a></li>
+    </ul>
+</body>
+
+</html>

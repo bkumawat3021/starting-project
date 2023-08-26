@@ -5,40 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        img{
+            width: 250px;
+        }
         .card{
             display: content;
-            /* content:""; */
-            width: 330px;
+            width: 250px;
             position: relative;
-            /* box-shadow: lightblue ; */
             overflow: hidden;
-            /* border-radius: 25px; */
         }
-       
-        .effect{
+        
+        .eft{
             position: absolute;
-            z-index: 10;
-            bottom: 10%0;
-            background-color: aliceblue;
+            z-index: 1;
+            text-align: center;
+            bottom: 100%;
+            
+            background-color:rgba(255, 255, 255, 0.466) ;
+            /* transform: translateY(-100%); */
+            
+        }
+        .card:hover .eft{
+            bottom: 0;
+            top: 0;
+        }
 
-        }
-        .card:hover .effect{
-            bottom: 0px;
-        }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="download.jpg" alt="">
-        <div class="effect">
-            <div class="title">title</div>
-            <div class="contant">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae perferendis molestias voluptate non maiores illum distinctio eveniet dolor quidem laboriosam?
-            </div>
+        <img src="kkk.jpg" alt="">
+        <div class="eft">
 
-
+            <div class="title"><h1>pizza</h1></div>
+            <div class="ddd"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt debitis? Doloremque iste distinctio libero incidunt magnam porro! Accusamus laudantium aperiam vel quia officiis magnam explicabo a nostrum ducimus! Labore minus ad eaque perferendis ex consectetur libero dolores, aspernatur vitae.</div>
         </div>
-    </div>
 
+    </div>
+    <div class="card" id="card1">
+        <img src="kkk.jpg" alt="">
+        <div class="eft">
+
+            <div class="title"><h1>pizza</h1></div>
+            <div class="ddd"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt debitis? Doloremque iste distinctio libero incidunt magnam porro! Accusamus laudantium aperiam vel quia officiis magnam explicabo a nostrum ducimus! Labore minus ad eaque perferendis ex consectetur libero dolores, aspernatur vitae.</div>
+        </div>
+
+    </div>
 </body>
 </html>
