@@ -1,0 +1,26 @@
+body{
+    display: inline-block;
+}
+.left{
+    display: block;
+    border: 5px solid red;
+    width: 26%;
+
+}
+.mid{
+    border: 5px solid green;
+    display: block;
+    width: 350px;
+}
+.nav{
+    display: inline-block;
+}
+.nav li {
+    display:inline-block ;
+}
+.right{
+    border: 5px solid blue;
+}
+.left img{
+width: 100px;
+}

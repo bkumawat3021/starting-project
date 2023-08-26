@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            display: content;
+            /* content:""; */
+            width: 330px;
+            position: relative;
+            /* box-shadow: lightblue ; */
+            overflow: hidden;
+            /* border-radius: 25px; */
+        }
+       
+        .effect{
+            position: absolute;
+            z-index: 10;
+            bottom: 10%0;
+            background-color: aliceblue;
+
+        }
+        .card:hover .effect{
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="download.jpg" alt="">
+        <div class="effect">
+            <div class="title">title</div>
+            <div class="contant">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae perferendis molestias voluptate non maiores illum distinctio eveniet dolor quidem laboriosam?
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
